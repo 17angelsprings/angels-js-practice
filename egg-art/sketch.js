@@ -27,8 +27,8 @@ function adjustHeight() {
 }
 
 function draw() {
-  textSize(32)
-  text('@17angelsprings', 100, 80);  // puts text on upper left corner 
+  textSize(30)
+  text('created by @17angelsprings', 800, 80);  // puts text middle on top of canvas
   if (mouseIsPressed) {              // mouse is pressed 
     fill(255);                       // shape is filled the color white
     ellipse(mouseX, mouseY, 20, 30); // it's an oval placed down wherever the mouse is
